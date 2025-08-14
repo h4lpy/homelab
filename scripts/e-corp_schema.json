@@ -1,0 +1,56 @@
+{
+  "domain": "e-corp.com",
+  "organizational_units": [
+    "Executives",
+    "IT",
+    "Cybersecurity",
+    "Business",
+    "HR",
+    "Legal",
+    "ServiceAccounts"
+  ],
+  "users": [
+    { "name": "Phillip Price", "ou": "Executives", "title": "CEO" },
+    { "name": "Terry Colby", "ou": "Executives", "title": "CTO" },
+    { "name": "Linda Spencer", "ou": "Executives", "title": "CHRO" },
+    { "name": "James Plofe", "ou": "Executives", "title": "Executive VP Technology" },
+    { "name": "Tyrell Wellick", "ou": "IT", "title": "Global Infrastructure Lead" },
+    { "name": "John Laslen", "ou": "IT", "title": "Sr. Infrastructure Engineer"},
+    { "name": "Oliver Parker", "ou": "IT", "title": "Infrastructure Engineer" },
+    { "name": "Bill Harper", "ou": "IT", "title": "Workplace Support" },
+    { "name": "Eric Nessberg", "ou": "IT", "title": "Workplace Support" },
+    { "name": "Karen Ivanthal", "ou": "IT", "title": "Workplace Support" },
+    { "name": "William Braddock", "ou": "Cybersecurity", "title": "Global Cyber Incident Response Lead"},
+    { "name": "Elliot Alderson", "ou": "Cybersecurity", "title": "Sr. Security Analyst" },
+    { "name": "Lloyd Chong", "ou": "Cybersecurity", "title": "Security Analyst" },
+    { "name": "Samar Swailem", "ou": "Cybersecurity", "title": "Security Analyst" },
+    { "name": "Angela Moss", "ou": "Cybersecurity", "title": "Cyber Event Manager" },
+    { "name": "Scott Knowles", "ou": "Business", "title": "Sr. VP Business" },
+    { "name": "Gideon Goddard", "ou": "Business", "title": "Allsafe Liaison" },
+    { "name": "Donald Hoffman", "ou": "Business", "title": "Corporate Security" },
+    { "name": "John Tholdon", "ou": "Business", "title": "Corporate Security" },
+    { "name": "Brian Elkarn", "ou": "HR", "title": "Human Resources" },
+    { "name": "Bryan Gilamito", "ou": "HR", "title": "Recruiter" },
+    { "name": "Susan Jacobs", "ou": "Legal", "title": "Legal Counsel" },
+    { "name": "Gracie Sheldern", "ou": "Legal", "title": "Legal Counsel"}
+
+  ],
+  "computers": [
+    { "Hostname": "dc01", "role": "Primary Domain Controller" },
+    { "Hostname": "ws-elliot", "assignedto": "ealderson" },
+    { "Hostname": "ws-darlene", "assignedto": "dalderson" },
+    { "Hostname": "ws-angela", "assignedto": "amoss" },
+    { "Hostname": "secmon01", "role": "Security Monitoring Server" },
+    { "Hostname": "web01", "role": "Web Server" },
+    { "Hostname": "sql01", "role": "Database Server" },
+    { "Hostname": "admin01", "role": "Administrative Workstation" },
+    { "Hostname": "sandbox01", "role": "Dev/Test Environment" }
+  ],
+  "groups": [
+    { "name": "Domain Admins", "members": ["bharper", "enessberg", "kivanthal"] },
+    { "name": "Security Team", "members": ["wbraddock", "ealderson", "lchong", "sswailem"] },
+    { "name": "Infrastructure", "members": ["twellick", "jlaslen", "oparker"] },
+    { "name": "Executive Team", "members": ["pprice", "tcolby", "lspencer", "jplofe"] },
+    { "name": "Employees", "members": ["bharper", "enessberg", "kivanthal", "wbraddock", "ealderson", "lchong", "sswailem", "twellick", "jlaslen", "oparker", "pprice", "tcolby", "lspencer", "jplofe"] }
+  ]
+}

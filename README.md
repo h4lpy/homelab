@@ -1,20 +1,8 @@
-# Homelab - `E-CORP.LOCAL`
+# Homelab - `E-CORP.COM`
 
-This repository holds files/scripts/etc. related to my homelab setup (`E-CORP.LOCAL`).
+This repository holds files/scripts/etc. related to my homelab setup (`E-CORP.COM`).
 
 Contents:
 
-
-
-
-
-
-```
-Start-Service WinRM
-
-Set-Item wsman:\localhost\Client\TrustedHosts -value [DC IP]
-
-New-PSSession -ComputerName [DC IP] -Credential (Get-Credential)
-
-Enter-PSSession [Session ID]
-```
+- [00 - Domain Controller Setup](notes/00_domain_controller_setup.md)
+- [01 - Joining Computers to Domain](notes/01_join_computers_to_domain.md)

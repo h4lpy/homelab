@@ -48,9 +48,12 @@
   ],
   "groups": [
     { "name": "Domain Admins", "members": ["bharper", "enessberg", "kivanthal"] },
-    { "name": "Security Team", "members": ["wbraddock", "ealderson", "lchong", "sswailem"] },
+    { "name": "Security Team", "members": ["wbraddock", "ealderson", "lchong", "sswailem", "amoss"] },
     { "name": "Infrastructure", "members": ["twellick", "jlaslen", "oparker"] },
     { "name": "Executive Team", "members": ["pprice", "tcolby", "lspencer", "jplofe"] },
-    { "name": "Employees", "members": ["bharper", "enessberg", "kivanthal", "wbraddock", "ealderson", "lchong", "sswailem", "twellick", "jlaslen", "oparker", "pprice", "tcolby", "lspencer", "jplofe"] }
+    { "name": "Operations", "members": ["sknowles", "ggoddard", "dhoffman", "jtholdon"] },
+    { "name": "Human Resources", "members": ["lspencer", "belkarn", "bgilamito"] },
+    { "name": "Legal", "members": ["sjacobs", "gsheldern"] },
+    { "name": "Employees", "members": ["amoss","belkarn","bgilamito","bharper","dhoffman","ealderson","enessberg","ggoddard","gsheldern","jlaslen","jplofe","jtholdon","kivanthal","lchong","lspencer","oparker","pprice","sjacobs","sknowles","sswailem","tcolby","twellick","wbraddock"] }
   ]
 }
